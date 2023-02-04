@@ -59,7 +59,7 @@ Note : *Here temp variable is assigned with a value of 10.*
 Javascript variables are identified with some unique name. These unique names are called identifiers.
 
 ## Rules for assigning unique identifiers to a variable:
-- Names can contain letter(a-z, A-Z), digit(0-9), underscore(_), and doller($) sign.
+- Names can contain letter ( a - z, A-Z ), digit (0-9), underscore (_), and doller ($) sign.
 - Must start with a letter (a-z or A-Z), underscore(_) and dollor($) sign.
 - Case sensitive (A and a both are different).
 - Reversed keyword can't be used as a name.
