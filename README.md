@@ -59,8 +59,8 @@ Note : *Here temp variable is assigned with a value of 10.*
 Javascript variables are identified with some unique name. These unique names are called identifiers.
 
 ## Rules for assigning unique identifiers to a variable:
-- Names can contain letter ( a - z, A-Z ), digit (0-9), underscore (_), and doller ($) sign.
-- Must start with a letter (a-z or A-Z), underscore(_) and dollor($) sign.
+- Names can contain letter ( a - z, A - Z ), digit (0-9), underscore ( _ ), and doller ( $ ) sign.
+- Must start with a letter ( a - z or A - Z), underscore ( _ ) and dollor ( $ ) sign.
 - Case sensitive (A and a both are different).
 - Reversed keyword can't be used as a name.
 
@@ -92,4 +92,50 @@ console.log(value)
 10
 I am ryan
 ```
+
+**Note: Use the var keyword only for declaration or initialization., once for the life of any variable name in a document. You should not re-declare the same variable**
+
+
+```
+var temp = 10;
+
+var temp = "Ryan Raushan" // No Error // Bit don't use var again for same variable.
+```
+
+## Declaring multiple variable at the same time.
+
+```
+var temp1 = 12, temp2 = 30, temp3 = "Ryan";
+```
+
+## Re-Declaring of a variable.
+
+```
+var temp;
+
+console.log(temp);
+```
+> Output : 
+```
+undefined
+```
+
+But 
+
+```
+var name = "ryan raushan";
+
+var name;
+
+console.log(name)
+```
+> output : 
+```
+ryan raushan
+```
+
+**Note : Re-Declaring the variable doesn't make any difference to the value.
+**
+
+**Note : variable takes the most recent assigned value to it.**
 
