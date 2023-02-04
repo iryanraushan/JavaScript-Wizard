@@ -41,9 +41,9 @@ Hello World!
 variables are named containers for storing data.
 
 #### 3 types to declare a JavaScript variable.
-    - Using var
-    - Using let
-    - Using const
+1. Using var
+2. Using let
+3. Using const
 
 ### Variable Declaration
 
