@@ -188,9 +188,6 @@ ryan raushan
 - Devide and assign ( x /= y )  (x = x / y)
 - Modulus and assign ( x %= y )  (x = x % y)
 - Exponentiation Assignment   (x **= y)   (x = x ** y)
-- Right Shift Assignment   (x >>= y)    (x = x >> y)
-- left Shift Assignment   (x >>= y)    (x = x >> y)
-- Bitwise XOR Assignment   (x ^= y)    (x = x ^ y)
 
 **An assignment operator assigns a value to its left operand. based on the value of its right operand.The simple assignment operator is equal (=).**
 
@@ -237,23 +234,6 @@ console.log(x);     // output : 0
 var value3 = 5;
 value3 **= 3;
 console.log(value3)     // output : 125
-
-
-// 4. Right Shift Assignment   (x >>= y)    (x = x >> y)
-value3 >>= 1;
-console.log(value3)     // output : 62
-
-
-// 4. left Shift Assignment   (x <<= y)    (x = x << y)
-var value = 5;
-value <<= 1;
-console.log(value)      // output : 10
-
-
-// 5. Bitwise XOR Assignment   (x ^= y)    (x = x ^ y)
-var value = 5;
-value ^= 3;
-console.log(value)      // output : 6
 ```
 
 ## 2. Arithmetic Operator
@@ -263,10 +243,7 @@ console.log(value)      // output : 6
 - Multiplication Operator ( x * y )
 - Devision Operator ( x / y )
 - Modulus Operator ( x % y ) 
-- Exponentiation Operator  (x ** y) 
-- Right Shift Operator (x >> y)   
-- left Shift Operator  (x >> y)   
-- Bitwise XOR Operator  (x ^ y)    
+- Exponentiation Operator  (x ** y)  
 - Increament Operator  ( x++ ) (++x)
 - Decreament Operator ( x-- )  (--x)
 
@@ -292,15 +269,6 @@ console.log(" x % 5 = ", x % 5); // Output : 0
 
 // - Exponentiation Operator  (x ** y)
 console.log(" x ** 2 = ", x ** 2); // Output : 2500
-
-// - Right Shift Operator (x >> y)
-console.log(" x >> 1 = ", x >> 1); // Output : 25
-
-// - left Shift Operator  (x >> y)
-console.log(" x << y = ", x << 1); // Output : 100
-
-// - Bitwise XOR Operator  (x ^ y)
-console.log(" x ^ y = ", x ^ y); // Output : 43
 
 // - increament Operator  ( x++ ) (++x)
 

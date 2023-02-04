@@ -40,19 +40,3 @@ var value3 = 5;
 value3 **= 3;
 console.log(value3)     // output : 125
 
-
-// 4. Right Shift Assignment   (x >>= y)    (x = x >> y)
-value3 >>= 1;
-console.log(value3)     // output : 62
-
-
-// 4. left Shift Assignment   (x <<= y)    (x = x << y)
-var value = 5;
-value <<= 1;
-console.log(value)      // output : 10
-
-
-// 5. Bitwise XOR Assignment   (x ^= y)    (x = x ^ y)
-var value = 5;
-value ^= 3;
-console.log(value)      // output : 6

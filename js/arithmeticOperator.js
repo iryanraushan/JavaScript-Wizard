@@ -19,15 +19,6 @@ console.log(" x % 5 = ", x % 5); // Output : 0
 // - Exponentiation Operator  (x ** y)
 console.log(" x ** 2 = ", x ** 2); // Output : 2500
 
-// - Right Shift Operator (x >> y)
-console.log(" x >> 1 = ", x >> 1); // Output : 25
-
-// - left Shift Operator  (x >> y)
-console.log(" x << y = ", x << 1); // Output : 100
-
-// - Bitwise XOR Operator  (x ^ y)
-console.log(" x ^ y = ", x ^ y); // Output : 43
-
 // - increament Operator  ( x++ ) (++x)
 
 //preincreament : 1st increase value by 1 then use
