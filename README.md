@@ -163,8 +163,7 @@ console.log(name)
 ryan raushan
 ```
 
-**Note : Re-Declaring the variable doesn't make any difference to the value.
-**
+**Note : Re-Declaring the variable doesn't make any difference to the value.**
 
 **Note : variable takes the most recent assigned value to it.**
 
@@ -193,7 +192,7 @@ ryan raushan
 - left Shift Assignment   (x >>= y)    (x = x >> y)
 - Bitwise XOR Assignment   (x ^= y)    (x = x ^ y)
 
-** An assignment operator assigns a value to its left operand. based on the value of its right operand.The simple assignment operator is equal (=).**
+**An assignment operator assigns a value to its left operand. based on the value of its right operand.The simple assignment operator is equal (=).**
 
 #### Example :
 ```
