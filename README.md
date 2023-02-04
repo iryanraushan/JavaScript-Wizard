@@ -48,6 +48,6 @@ variables are named containers for storing data.
 ### Variable Declaration
 
 ```
-var temp
+var temp;
 ```
 *Here temp is the variable name without any value. By default, it assigned with **undefined***
