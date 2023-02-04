@@ -300,6 +300,16 @@ console.log("x-- = ", x--); // Output : 51
 - **<**	    ==>    Less than	
 - **<=**	==>    Less than or equal to	
 
+## 4. Bitwise Operator
+
+- **&**	  ==>   Bitwise AND
+- **|**	  ==>   Bitwise OR	
+- **^**	  ==>   Bitwise XOR	
+- **~**	  ==>   Bitwise NOT	
+- **<<**  ==>   Bitwise Left Shift	
+- **>>**  ==>   Bitwise Right Shift	
+- **>>>** ==>   Bitwise Right Shift with Zero
+
 ## 5. Logical Operator
 
 - &&    ==>	    Logical AND	(10==20 && 20==33) = false
