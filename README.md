@@ -20,7 +20,7 @@ Hello World!
 
 # Variable And Datatypes
 ## Data Types
-#### There Are 7 data types available in JavaScript.
+### 7 data types available in JavaScript.
 
 #### Primitive
 1. Number - Represents integer and floating values.
@@ -36,7 +36,7 @@ Hello World!
 ## Variables
 *variables are named containers for storing data.*
 
-#### 3 types to declare a JavaScript variable.
+### 3 types to declare a JavaScript variable.
 1. Using var
 2. Using let
 3. Using const
@@ -70,6 +70,35 @@ var ryan; // No error
 var _ryan; // No error
 var *ryan; // Uncaught Syntax error
 var 1ryan; // Uncaught Syntax error
+```
+
+### typeof(value) method
+
+**Note : typeof(value) ==> use to know datatype**
+```
+var stringType = "i am ryan";
+console.log(stringType," Data type is : ", typeof(stringType));
+
+var numberType = 87;
+console.log(numberType," Data type is : ", typeof(numberType));
+
+var booleanType = false;
+console.log(booleanType," Data type is : ",  typeof(booleanType));
+
+var bigIntType = 87664832555;
+console.log(bigIntType," Data type is : ",  typeof(bigIntType));
+
+var undefinedType; // undefined type.
+console.log(undefinedType," Data type is : ", typeof(undefinedType))
+
+```
+> Output : 
+```
+i am ryan  Data type is :  string
+87  Data type is :  number
+false  Data type is :  boolean
+87664832555  Data type is :  number
+undefined  Data type is :  undefined
 ```
 
 # Assigning values to a variable
@@ -138,4 +167,95 @@ ryan raushan
 **
 
 **Note : variable takes the most recent assigned value to it.**
+
+
+# JavaScript Operators
+* operators are symbols that are used to perform operations on operands.*
+
+### 6 operator in javascript
+1. Assignment Operator
+2. Arithmetic Operator
+3. Relational Operator
+4. Bitwise Operator
+5. Logical Operator
+6. Special Operator
+
+## 1. Assignment Operator
+
+- Assign  ( = )
+- Add and assign   ( x += y )  (x = x + y)
+- Subtract and assign ( x -= y )  (x = x - y)
+- Multiply and assign ( x *= y )  (x = x * y)
+- Devide and assign ( x /= y )  (x = x / y)
+- Modulus and assign ( x %= y )  (x = x % y)
+- Exponentiation Assignment   (x **= y)   (x = x ** y)
+- Right Shift Assignment   (x >>= y)    (x = x >> y)
+- left Shift Assignment   (x >>= y)    (x = x >> y)
+- Bitwise XOR Assignment   (x ^= y)    (x = x ^ y)
+
+** An assignment operator assigns a value to its left operand. based on the value of its right operand.The simple assignment operator is equal (=).**
+
+#### Example :
+```
+// - Assign =>  =
+
+var x = 30;
+var y = 20;
+console.log(x)      // output : 30
+console.log(y)      // output : 20
+
+// - Add and assign =>  +=
+y += x; // y = y + x
+
+console.log(y);     // output : 50
+
+
+// - Subtract and assign => -=
+y -= x; // y = y - x
+
+console.log(y);     // output : 20
+
+
+// - Multiply and assign => *=
+
+y *= 2; // y = y * 2
+console.log(y);     // output : 40
+
+
+// - Devide and assign => /=
+
+x /= 2; // x = x / 2
+console.log(x);     // output : 15
+
+
+// - Modulus and assign => %=
+
+x %= 3; // x = x % 3
+console.log(x);     // output : 0
+
+
+// 3. Exponentiation Assignment   (x **= y)   (x = x ** y)
+var value3 = 5;
+value3 **= 3;
+console.log(value3)     // output : 125
+
+
+// 4. Right Shift Assignment   (x >>= y)    (x = x >> y)
+value3 >>= 1;
+console.log(value3)     // output : 62
+
+
+// 4. left Shift Assignment   (x <<= y)    (x = x << y)
+var value = 5;
+value <<= 1;
+console.log(value)      // output : 10
+
+
+// 5. Bitwise XOR Assignment   (x ^= y)    (x = x ^ y)
+var value = 5;
+value ^= 3;
+console.log(value)      // output : 6
+```
+
+## 2. Arithmetic Operator
 
