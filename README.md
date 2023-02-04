@@ -24,30 +24,30 @@ Hello World!
 
 # Variable And Datatypes
 
-### There Are 7 data types available in JavaScript.
+#### There Are 7 data types available in JavaScript.
 
 #### Primitive
-    - Number - Represents integer and floating values.
-    - String - Represents Textual data.
-    - Boolean - Logical entity with values as true or false.
-    - Undefined - Represents a variable whose value is not yet assigned.
-    - Null - Represents the intentional absence of value.
-    - Symbol - Represent a unique value.
+    1. Number - Represents integer and floating values.
+    2. String - Represents Textual data.
+    3. Boolean - Logical entity with values as true or false.
+    4. Undefined - Represents a variable whose value is not yet assigned.
+    5. Null - Represents the intentional absence of value.
+    6. Symbol - Represent a unique value.
 
 #### Non-Primitive
-    - Object - Represents Key-value pair.
+    7. Object - Represents Key-value pair.
 
 ### Variables
 variables are named containers for storing data.
 
 #### 3 types to declare a JavaScript variable.
-    - Using **var**
-    - Using **let**
-    - Using **const**
+    - Using var
+    - Using let
+    - Using const
 
 ### Variable Declaration
 
 ```
 var temp;
 ```
-*Here temp is the variable name without any value. By default, it assigned with **undefined***
+Note : *Here temp is the variable name without any value. By default, it assigned with **undefined***
