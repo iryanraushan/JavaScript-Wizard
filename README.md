@@ -27,15 +27,15 @@ Hello World!
 #### There Are 7 data types available in JavaScript.
 
 #### Primitive
-    1. Number - Represents integer and floating values.
-    2. String - Represents Textual data.
-    3. Boolean - Logical entity with values as true or false.
-    4. Undefined - Represents a variable whose value is not yet assigned.
-    5. Null - Represents the intentional absence of value.
-    6. Symbol - Represent a unique value.
+1. Number - Represents integer and floating values.
+2. String - Represents Textual data.
+3. Boolean - Logical entity with values as true or false.
+4. Undefined - Represents a variable whose value is not yet assigned.
+5. Null - Represents the intentional absence of value.
+6. Symbol - Represent a unique value.
 
 #### Non-Primitive
-    7. Object - Represents Key-value pair.
+7. Object - Represents Key-value pair.
 
 ### Variables
 variables are named containers for storing data.
