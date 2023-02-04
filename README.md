@@ -289,6 +289,24 @@ console.log("--x = ", --x); // Output : 51
 console.log("x-- = ", x--); // Output : 51
 ```
 
+## 3. Relational Operator
+
+- **==**	==>    Is equal to
+- **===**	==>    Identical (equal and of same type)
+- **!=**	==>    Not equal to
+- **!==**	==>    Not Identical
+- **>**	    ==>    Greater than
+- **>=**	==>    Greater than or equal to	
+- **<**	    ==>    Less than	
+- **<=**	==>    Less than or equal to	
+
+## 5. Logical Operator
+
+- &&    ==>	    Logical AND	(10==20 && 20==33) = false
+- ||    ==>	    Logical OR	(10==20 || 20==33) = false
+- !	    ==>     Logical Not	!(10==20) = true
+
+
 ## 6. Special Operator 
 
 - **(?:)**	==>         Conditional Operator returns value based on the condition. It is like if-else.
