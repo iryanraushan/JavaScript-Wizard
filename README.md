@@ -11,8 +11,13 @@ alert("Hii.. I just start learning javascript.");
 
 
 ```
-//
 
 console.log('Hello World!');
+
+```
+>Output : 
+```
+
+Hello World!
 
 ```
