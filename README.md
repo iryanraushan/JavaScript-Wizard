@@ -288,30 +288,30 @@ console.log("x-- = ", x--); // Output : 51
  |	   :  Bitwise OR	
  ^	   :  Bitwise XOR	
  ~	   :  Bitwise NOT	
- <<    :  Bitwise Left Shift	
- >>    :  Bitwise Right Shift	
- >>>   :  Bitwise Right Shift with Zero
+ <<   :  Bitwise Left Shift	
+ >>   :  Bitwise Right Shift	
+ >>>  :  Bitwise Right Shift with Zero
 ```
 ## 5. Logical Operator
 
 ``` 
 &&   :  Logical AND	(10==20 && 20==33) = false
- ||   :  Logical OR	(10==20 || 20==33) = false
- !	   :  Logical Not	!(10==20) = true
+ ||  :  Logical OR	(10==20 || 20==33) = false
+ !	  :  Logical Not	!(10==20) = true
 ```
 
 ## 6. Special Operator 
 
 ```
-?:	        : Conditional Operator returns value based on the condition. It is like if-else.
+?:	         : Conditional Operator returns value based on the condition. It is like if-else.
 ,           : Comma Operator allows multiple expressions to be evaluated as single statement.
 delete      : Delete Operator deletes a property from the object.
-in	        : In Operator checks if object has the given property
+in	         : In Operator checks if object has the given property
 instanceof  : checks if the object is an instance of given type
 new         : creates an instance (object)
 typeof 	    : checks the type of object.
-void	    : it discards the expression's return value.
-yield	    : checks what is returned in a generator by the generator's iterator.
+void	       : it discards the expression's return value.
+yield	      : checks what is returned in a generator by the generator's iterator.
 ```
 # String in javascript : 
 
