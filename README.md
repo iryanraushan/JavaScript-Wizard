@@ -57,10 +57,10 @@ Javascript variables are identified with some unique name. These unique names ar
 
 #### Example : 
 ```
-var ryan; // No error
-var _ryan; // No error
-var *ryan; // Uncaught Syntax error
-var 1ryan; // Uncaught Syntax error
+var ryan;   // No error
+var _ryan;  // No error
+var *ryan;  // Uncaught Syntax error
+var 1ryan;  // Uncaught Syntax error
 ```
 
 ### typeof(value) method
@@ -186,42 +186,31 @@ ryan raushan
 ```
 // - Assign =>  =
 
-var x = 30;
 var y = 20;
-console.log(x)      // output : 30
 console.log(y)      // output : 20
 
 // - Add and assign =>  +=
 y += x; // y = y + x
-
 console.log(y);     // output : 50
-
 
 // - Subtract and assign => -=
 y -= x; // y = y - x
-
 console.log(y);     // output : 20
 
-
 // - Multiply and assign => *=
-
 y *= 2; // y = y * 2
 console.log(y);     // output : 40
-
 
 // - Devide and assign => /=
 
 x /= 2; // x = x / 2
 console.log(x);     // output : 15
 
-
 // - Modulus and assign => %=
-
 x %= 3; // x = x % 3
 console.log(x);     // output : 0
 
-
-// 3. Exponentiation Assignment   (x **= y)   (x = x ** y)
+// - Exponentiation Assignment   (x **= y)   (x = x ** y)
 var value3 = 5;
 value3 **= 3;
 console.log(value3)     // output : 125
@@ -229,14 +218,14 @@ console.log(value3)     // output : 125
 
 ## 2. Arithmetic Operator
 
-- Addition Operator ( x + y ) 
-- Subtraction Operator( x - y ) 
-- Multiplication Operator ( x * y )
-- Devision Operator ( x / y )
-- Modulus Operator ( x % y ) 
-- Exponentiation Operator  (x ** y)  
-- Increament Operator  ( x++ ) (++x)
-- Decreament Operator ( x-- )  (--x)
+- Addition Operator       :  ( x + y ) 
+- Subtraction Operator    :  ( x - y ) 
+- Multiplication Operator :  ( x * y )
+- Devision Operator       :  ( x / y )
+- Modulus Operator        :  ( x % y ) 
+- Exponentiation Operator :  (x ** y)  
+- Increament Operator     :  ( x++ ) (++x)
+- Decreament Operator     :  ( x-- )  (--x)
 
 #### Example : 
 ```
@@ -282,31 +271,34 @@ console.log("x-- = ", x--); // Output : 51
 
 ## 3. Relational Operator
 
-- **==**	==>    Is equal to
-- **===**	==>    Identical (equal and of same type)
-- **!=**	==>    Not equal to
-- **!==**	==>    Not Identical
-- **>**	    ==>    Greater than
-- **>=**	==>    Greater than or equal to	
-- **<**	    ==>    Less than	
-- **<=**	==>    Less than or equal to	
-
+```
+ ==   :  Is equal to
+ ===  :  Identical (equal and of same type)
+ !=   :  Not equal to
+ !==  :  Not Identical
+ >    :  Greater than
+ >=   :  Greater than or equal to	
+ <    :  Less than	
+ <=   :  Less than or equal to	
+```
 ## 4. Bitwise Operator
 
-- **&**	  ==>   Bitwise AND
-- **|**	  ==>   Bitwise OR	
-- **^**	  ==>   Bitwise XOR	
-- **~**	  ==>   Bitwise NOT	
-- **<<**  ==>   Bitwise Left Shift	
-- **>>**  ==>   Bitwise Right Shift	
-- **>>>** ==>   Bitwise Right Shift with Zero
-
+``` 
+ &	   :  Bitwise AND
+ |	   :  Bitwise OR	
+ ^	   :  Bitwise XOR	
+ ~	   :  Bitwise NOT	
+ <<    :  Bitwise Left Shift	
+ >>    :  Bitwise Right Shift	
+ >>>   :  Bitwise Right Shift with Zero
+```
 ## 5. Logical Operator
 
-- &&    ==>	    Logical AND	(10==20 && 20==33) = false
-- ||    ==>	    Logical OR	(10==20 || 20==33) = false
-- !	    ==>     Logical Not	!(10==20) = true
-
+``` 
+&&   :  Logical AND	(10==20 && 20==33) = false
+ ||   :  Logical OR	(10==20 || 20==33) = false
+ !	   :  Logical Not	!(10==20) = true
+```
 
 ## 6. Special Operator 
 
