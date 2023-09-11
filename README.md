@@ -319,12 +319,101 @@ console.log("x-- = ", x--); // Output : 51
 
 ## 6. Special Operator 
 
-- **(?:)**	==>         Conditional Operator returns value based on the condition. It is like if-else.
-- **,** ==>	            Comma Operator allows multiple expressions to be evaluated as single statement.
-- **delete** ==>        Delete Operator deletes a property from the object.
-- **in** ==>	        In Operator checks if object has the given property
-- **instanceof** ==>    checks if the object is an instance of given type
-- **new** ==>           creates an instance (object)
-- **typeof** ==>	    checks the type of object.
-- **void**	==>         it discards the expression's return value.
-- **yield**	==>         checks what is returned in a generator by the generator's iterator.
+```
+?:	        : Conditional Operator returns value based on the condition. It is like if-else.
+,           : Comma Operator allows multiple expressions to be evaluated as single statement.
+delete      : Delete Operator deletes a property from the object.
+in	        : In Operator checks if object has the given property
+instanceof  : checks if the object is an instance of given type
+new         : creates an instance (object)
+typeof 	    : checks the type of object.
+void	    : it discards the expression's return value.
+yield	    : checks what is returned in a generator by the generator's iterator.
+```
+# String in javascript : 
+
+A JavaScript string stores a series of characters.
+```
+let str = "Hello World!";
+```
+
+- str.length : length of string. 
+```
+let length = str.length
+console.log(length);
+```
+> Note : 'Dont use length() becuase in javascript length is not function
+
+- string.charAt(index) : return character at any index
+```
+let ch = str.charAt(7);
+console.log(ch); 
+
+let ch1 = str.charAt(7.2);
+console.log(ch1); 
+
+let ch2 = str.charAt(7.8);
+console.log(ch2); 
+```
+
+- str.charCodeAt(index) : Return between 0 - 65535 representing UTF-16 code of character at given index.
+```
+let charCodeAt = str.charCodeAt(4);
+console.log(charCodeAt);
+```
+- str.codePointAt(index) : Return unicode of character at given index.
+```
+let codePointAt = str.codePointAt(4)
+console.log(codePointAt);
+```
+- str.concat(str1, ..., strN) : Returns a new string containing the combined text of the strings provided.
+```
+let strTemp = " Ryan."
+let newString = str.concat(strTemp)
+console.log(newString);
+
+console.log("".concat({})); // [object Object]
+console.log("".concat(null)); // null
+console.log("".concat(true)); // true
+console.log("".concat(657, 52)); // 45
+```
+> Note : It will Not change origional string
+
+- str.endsWith(searchString) || str.endsWith(searchString, length) : 
+- method returns: 
+    - true - if the given characters are found at the end of the string.
+    - false - if given characters are not found at the end of the string. 
+length (optional) :  It is used as the length of str where searchString is searched. Default value is str.length. 
+```
+let sentence = "let's fun with javascript";
+let check1 = sentence.endsWith("ipt");
+let check2 = sentence.endsWith("thw");
+console.log(`check1: ${check1}, check2 : ${check2}`);
+```
+> Note : The endsWith() method is case sensitive. 
+
+- str.includes(searchString) || str.includes(searchString, index):
+    - Method return: 
+        - true- if searchString is found anywhere within str.
+        -false- if searchString is not found anywhere within str.
+index (optional) - The position within str to begin searching for searchString. By default, it is 0.
+```
+let sentence = "Java is to JavaScript what Car is to Carpet.";
+let check = sentence.includes("Java");
+console.log(check); // true
+
+// case sensitive
+let check1 = sentence.includes("java");
+console.log(check1); // false
+
+// second argument specifies position to start at
+let check2 = sentence.includes("Java", 20);
+console.log(check2); // false
+
+let check3 = sentence.includes("whose");
+console.log(check3); // false
+
+let check4 = sentence.includes("");
+console.log(check4); // true
+```
+> Note: The includes() method is case sensitive.
