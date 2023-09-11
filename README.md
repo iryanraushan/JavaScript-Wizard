@@ -383,7 +383,7 @@ console.log("".concat(657, 52)); // 45
 - method returns: 
     - true - if the given characters are found at the end of the string.
     - false - if given characters are not found at the end of the string. 
-length (optional) :  It is used as the length of str where searchString is searched. Default value is str.length. 
+- length (optional) :  It is used as the length of str where searchString is searched. Default value is str.length. 
 ```
 let sentence = "let's fun with javascript";
 let check1 = sentence.endsWith("ipt");
@@ -396,7 +396,7 @@ console.log(`check1: ${check1}, check2 : ${check2}`);
 - Method return: 
     - true- if searchString is found anywhere within str.
     - false- if searchString is not found anywhere within str.
-index (optional) - The position within str to begin searching for searchString. By default, it is 0.
+- index (optional) - The position within str to begin searching for searchString. By default, it is 0.
 ```
 let sentence = "Java is to JavaScript what Car is to Carpet.";
 let check = sentence.includes("Java");
