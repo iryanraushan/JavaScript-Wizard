@@ -393,9 +393,9 @@ console.log(`check1: ${check1}, check2 : ${check2}`);
 > Note : The endsWith() method is case sensitive. 
 
 - str.includes(searchString) || str.includes(searchString, index):
-    - Method return: 
-        - true- if searchString is found anywhere within str.
-        - false- if searchString is not found anywhere within str.
+- Method return: 
+    - true- if searchString is found anywhere within str.
+    - false- if searchString is not found anywhere within str.
 index (optional) - The position within str to begin searching for searchString. By default, it is 0.
 ```
 let sentence = "Java is to JavaScript what Car is to Carpet.";
