@@ -400,3 +400,27 @@ let check4 = sentence.includes("");
 console.log(check4); // true
 ```
 > Note: The includes() method is case sensitive.
+
+
+# Array is javascript : 
+
+- The difference between slice(start, end) and splice(start, end) is : 
+    - slice() : Method return an array from index start to (end-1) .
+    - splice(): Method return an removed array from origional array from index start to end.
+```
+let myArr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+console.log(`Origional array : ${myArr}`); // Origional array : 0,1,2,3,4,5,6,7,8,9
+
+let sliceArray = myArr.slice(2, 6)
+
+console.log(`Sliced array : ${sliceArray}`); // Sliced array : 2,3,4,5
+
+console.log(`Origional array After slice : ${myArr}`); // Origional array After slice : 0,1,2,3,4,5,6,7,8,9
+
+let spliceArray = myArr.splice(2, 6)
+
+console.log(`Sliced array : ${spliceArray}`); // Sliced array : 2,3,4,5,6,7
+
+console.log(`Origional array After splice : ${myArr}`); // Origional array After splice : 0,1,8,9
+```
