@@ -1,6 +1,6 @@
 # Learn-JavaScript
 
-## Print Hello World! on console
+- Print Hello World! on console
 ```
 console.log('Hello World!');
 ```
@@ -30,13 +30,14 @@ var temp;
 ```
 var temp = 30;
 ```
-Note : *Here temp variable is assigned with a value of 10.*- JavaScript Identifiers
+> Note : *Here temp variable is assigned with a value of 10.*- JavaScript Identifiers
+
 Javascript variables are identified with some unique name. These unique names are called identifiers.
 - Rules for assigning unique identifiers to a variable:
-- Names can contain letter ( a - z, A - Z ), digit (0-9), underscore ( _ ), and doller ( $ ) sign.
-- Must start with a letter ( a - z or A - Z), underscore ( _ ) and dollor ( $ ) sign.
-- Case sensitive (A and a both are different).
-- Reversed keyword can't be used as a name.
+    - Names can contain letter ( a - z, A - Z ), digit (0-9), underscore ( _ ), and doller ( $ ) sign.
+    - Must start with a letter ( a - z or A - Z), underscore ( _ ) and dollor ( $ ) sign.
+    - Case sensitive (A and a both are different).
+    - Reversed keyword can't be used as a name.
 
 ```
 var ryan;   // No error
@@ -61,15 +62,16 @@ In JavaScript, a variable can store different types of data.
 - Non-Primitive
 7. Object - Represents Key-value pair.
 
+- Example : 
 ```    
 let temp = 10 ;// Number 
 let temp2 =  “JavaScript Wizard” // String 
 ```
-> Note : JavaScript evaluates data from left to the right. 
 
+> Note : JavaScript evaluates data from left to the right. 
 ```
-let temp = 6 + 8 + “JavaScript Wizard” ; // 14JavaScript Wizard
 let temp = “JavaScript Wizard”  +  1 ; // JavaScript Wizard1
+let temp = 6 + 8 + “JavaScript Wizard” ; // 14JavaScript Wizard
  ```
 
 - Dynamically Typed Language
@@ -85,16 +87,16 @@ let temp = true ;
 - typeof Operator 
 The typeof operator is a unary operator placed before its single operand, which can be of any type. Its value is a string indicating the data type of the operand.  The typeof operator evaluates to "number", "string", or "boolean" if its operand is a number, string, or boolean value and returns true or false based onthe evaluation. TypeString Returned by typeof 
 
-| Type |	typeof return value | 	Object wrapper |
-| ------------- | ------------- |
-| Null |	"object" | 	N/A |
+| Type      |	typeof return value | 	Object wrapper |
+| --------- | ------------- | ---------- |
+| Null      |	"object" | 	N/A |
 | Undefined |	"undefined" | 	N/A |
-| Boolean |	"boolean" | 	Boolean |
-| Number |	"number" | 	Number |
-| BigInt |	"bigint" | 	BigInt |
-| String |	"string" | 	String |
-| object     | "object"   | Object |
-| Symbol |	"symbol" | 	Symbol |
+| Boolean   |	"boolean" | 	Boolean |
+| Number    |	"number" | 	Number |
+| BigInt    |	"bigint" | 	BigInt |
+| String    |	"string" | 	String |
+| object    | "object"   | Object |
+| Symbol    |	"symbol" | 	Symbol |
 
 - There are 6 primitive and 1  non-primitive data types: 
 
