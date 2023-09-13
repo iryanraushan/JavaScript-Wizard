@@ -9,53 +9,35 @@ console.log('Hello World!');
 Hello World!
 ```
 
-# Variable And Datatypes
+# Variables in Javascript
 ## Data Types
 ### 7 data types available in JavaScript.
 
-#### Primitive
-1. Number - Represents integer and floating values.
-2. String - Represents Textual data.
-3. Boolean - Logical entity with values as true or false.
-4. Undefined - Represents a variable whose value is not yet assigned.
-5. Null - Represents the intentional absence of value.
-6. Symbol - Represent a unique value.
-
-#### Non-Primitive
-7. Object - Represents Key-value pair.
-
-## Variables
-*variables are named containers for storing data.*
-
-### 3 types to declare a JavaScript variable.
+- 3 types to declare a JavaScript variable.
 1. Using var
 2. Using let
 3. Using const
 
-### Variable Declaration
+- Variable Declaration
 
 ```
 var temp;
 ```
-Note : *Here temp is the variable name without any value. By default, it assigned with **undefined***
+> Note : Here temp is the variable name without any value. By default, it assigned with ```undefined```.
 
-### Variable Definition
+- Variable Definition
 
 ```
 var temp = 30;
 ```
-Note : *Here temp variable is assigned with a value of 10.*
-
-# JavaScript Identifiers
+Note : *Here temp variable is assigned with a value of 10.*- JavaScript Identifiers
 Javascript variables are identified with some unique name. These unique names are called identifiers.
-
-## Rules for assigning unique identifiers to a variable:
+- Rules for assigning unique identifiers to a variable:
 - Names can contain letter ( a - z, A - Z ), digit (0-9), underscore ( _ ), and doller ( $ ) sign.
 - Must start with a letter ( a - z or A - Z), underscore ( _ ) and dollor ( $ ) sign.
 - Case sensitive (A and a both are different).
 - Reversed keyword can't be used as a name.
 
-#### Example : 
 ```
 var ryan;   // No error
 var _ryan;  // No error
@@ -63,103 +45,105 @@ var *ryan;  // Uncaught Syntax error
 var 1ryan;  // Uncaught Syntax error
 ```
 
-### typeof(value) method
+# Data Types in Javascript : 
 
-**Note : typeof(value) ==> use to know datatype**
+Data Type is the type of data a variable stores. 
+In JavaScript, a variable can store different types of data. 
+
+- Primitive
+1. Number - Represents integer and floating values.
+2. String - Represents Textual data.
+3. Boolean - Logical entity with values as true or false.
+4. Undefined - Represents a variable whose value is not yet assigned.
+5. Null - Represents the intentional absence of value.
+6. Symbol - Represent a unique value.
+
+- Non-Primitive
+7. Object - Represents Key-value pair.
+
+```    
+let temp = 10 ;// Number 
+let temp2 =  “JavaScript Wizard” // String 
 ```
-var stringType = "i am ryan";
-console.log(stringType," Data type is : ", typeof(stringType));
-
-var numberType = 87;
-console.log(numberType," Data type is : ", typeof(numberType));
-
-var booleanType = false;
-console.log(booleanType," Data type is : ",  typeof(booleanType));
-
-var bigIntType = 87664832555;
-console.log(bigIntType," Data type is : ",  typeof(bigIntType));
-
-var undefinedType; // undefined type.
-console.log(undefinedType," Data type is : ", typeof(undefinedType))
-
-```
-> Output : 
-```
-i am ryan  Data type is :  string
-87  Data type is :  number
-false  Data type is :  boolean
-87664832555  Data type is :  number
-undefined  Data type is :  undefined
-```
-
-# Assigning values to a variable
-
-**Note : In javascript, you don't have to tell Javascript during variable declarartion what value the variable will hold.**
-
-#### Example : 
-```
-var value = 10;
-
-console.log(value);
-
-value = "I am ryan";
-
-console.log(value)
-```
-> Output : 
+> Note : JavaScript evaluates data from left to the right. 
 
 ```
-10
-I am ryan
+let temp = 6 + 8 + “JavaScript Wizard” ; // 14JavaScript Wizard
+let temp = “JavaScript Wizard”  +  1 ; // JavaScript Wizard1
+ ```
+
+- Dynamically Typed Language
+Javascript is a dynamic typing language, unlike Java/C++. When you declare a variable, you do not need to specify what type this variable is. Javascript engine infers what type of this variableis based on the value assigned to at the run time. 
+
+A variable can be assigned any type of value, and you need not mention the type. 
+
+```        
+let temp = 2 ; 
+let temp = true ; 
 ```
 
-**Note: Use the var keyword only for declaration or initialization., once for the life of any variable name in a document. You should not re-declare the same variable**
+- typeof Operator 
+The typeof operator is a unary operator placed before its single operand, which can be of any type. Its value is a string indicating the data type of the operand.  The typeof operator evaluates to "number", "string", or "boolean" if its operand is a number, string, or boolean value and returns true or false based onthe evaluation. TypeString Returned by typeof 
 
+| Type |	typeof return value | 	Object wrapper |
+| ------------- | ------------- |
+| Null |	"object" | 	N/A |
+| Undefined |	"undefined" | 	N/A |
+| Boolean |	"boolean" | 	Boolean |
+| Number |	"number" | 	Number |
+| BigInt |	"bigint" | 	BigInt |
+| String |	"string" | 	String |
+| object     | "object"   | Object |
+| Symbol |	"symbol" | 	Symbol |
+
+- There are 6 primitive and 1  non-primitive data types: 
+
+1.Number: It represents variables whose value is eitheran integer or float. Other than integer and float numbers, it has three symbolic values:+Infinity,-Infinity, andNaN. The number lies between+Infinityand-Infinity. 
+```
+let temp = 10 ; 
+typeof(temp) ;  // number 
+let temp = 10.54 ; 
+typeof(temp) ;  // number 
+let temp = NaN ; 
+typeof(temp) ;  // number 
+```
+> In JavaScript, NaN is also of type Number. 
+
+2. String: It represents textual data. The string contains elements that can be accessed using the index. The first element has an index of type., "hello", "1234", "12here". You can access each string element like- str = "HelloWorld", then str[1] will output 'e' on the console. 
+```
+typeof(5) ;  // number 
+typeof(“5”) ; // string 
+typeof("true"); // string
+```
+
+3. Undefined: 'undefined' is the value assigned to thevariable that has not yet been assigned any value. We can also explicitly assignan 'undefined' value to a variable, but that does not make any sense due toits meaning. Example:var a ; Defines a variable that has not been assigned any value. 
 
 ```
-var temp = 10;
-
-var temp = "Ryan Raushan" // No Error // Bit don't use var again for same variable.
+console.log(a) ; // Output - 'undefined' 
+```
+4. Boolean: Booleans can only have two values: true or false. It is often used for conditional testing. 
+```
+let x = 2 , y = “2” ,  z = 3 ; 
+console.log(x==y) ;   // true 
+console.log(x===y) ;  // false 
+console.log(x==z) ;   // false 
 ```
 
-## Declaring multiple variable at the same time.
+5. null:'null' is the value that represents a referencethat points to a non-existent object or address. This means that there is an absenceof a value. The data type for the null value is "Object". 
 
+6. NaN: 'NaN' meansNot-A-Number. So, if any expressionfails to return a number, then 'NaN' is printed on the console 
+```
+typeof(NaN) ; // Number 
+
+(12 - "abc") ; cannot be evaluated to a number, so 'NaN' is printedon the console.
+```
+
+- Declaring multiple variable at the same time.
 ```
 var temp1 = 12, temp2 = 30, temp3 = "Ryan";
 ```
 
-## Re-Declaring of a variable.
-
-```
-var temp;
-
-console.log(temp);
-```
-> Output : 
-```
-undefined
-```
-
-But 
-
-```
-var name = "ryan raushan";
-
-var name;
-
-console.log(name)
-```
-> output : 
-```
-ryan raushan
-```
-
-**Note : Re-Declaring the variable doesn't make any difference to the value.**
-
-**Note : variable takes the most recent assigned value to it.**
-
-
-# JavaScript Operators
+# Operators in Javascript
 * operators are symbols that are used to perform operations on operands.*
 
 ### 6 operator in javascript
