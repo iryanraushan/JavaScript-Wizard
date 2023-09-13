@@ -10,8 +10,8 @@ Hello World!
 ```
 
 # Variables in Javascript
-## Data Types
-### 7 data types available in JavaScript.
+
+Variables are Containers for Storing Data
 
 - 3 types to declare a JavaScript variable.
 1. Using var
