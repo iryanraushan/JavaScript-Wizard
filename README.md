@@ -85,7 +85,7 @@ let temp = true ;
 ```
 
 - typeof Operator 
-The typeof operator is a unary operator placed before its single operand, which can be of any type. Its value is a string indicating the data type of the operand.  The typeof operator evaluates to "number", "string", or "boolean" if its operand is a number, string, or boolean value and returns true or false based onthe evaluation. TypeString Returned by typeof 
+The typeof operator is a unary operator placed before its single operand, which can be of any type. The typeof operator evaluates to "number", "string", or "boolean" if its operand is a number, string, or boolean value and returns true or false based onthe evaluation.
 
 | Type      |	typeof return value | 	Object wrapper |
 | --------- | ------------- | ---------- |
